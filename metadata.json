@@ -1,0 +1,8 @@
+{
+  "name": "Python Exam Master",
+  "description": "A sophisticated study tracker and todo list designed for Python exam preparation. Features progress tracking, resource video links for every topic, and support for JSON and CSV data persistence.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

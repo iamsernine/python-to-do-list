@@ -1,0 +1,38 @@
+
+{
+  "name": "python-exam-master",
+  "version": "1.0.0",
+  "description": "A study dashboard for Python exams by sernine.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "author": "sernine",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "appId": "com.sernine.pythonexammaster",
+    "productName": "Python Exam Master",
+    "win": {
+      "target": "portable",
+      "icon": "icon.png"
+    },
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "index.html",
+      "index.tsx",
+      "App.tsx",
+      "types.ts",
+      "constants.tsx",
+      "main.js",
+      "metadata.json",
+      "components/**/*",
+      "services/**/*"
+    ]
+  }
+}
